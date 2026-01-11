@@ -7,7 +7,7 @@ def post_list(request):
 
 
 def detalle_list(request):
-    return render(request, 'blog/detalle.html', {})
+    return render(request, 'blog/nosotros.html', {})
 
 def detalle_ejemplo(request):
     return render(request, 'blog/ejemplo.html', {})
